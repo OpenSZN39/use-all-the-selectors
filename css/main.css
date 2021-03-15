@@ -23,7 +23,7 @@ nav ul {
   background-color: #eee8d5;
 }
 
-#contents, #faves, #facts, #types {
+#contents, #favs, #facts, #types {
   color: #93a1a1;
 }
 
@@ -31,7 +31,7 @@ nav ul {
   background-color: #b58900;
 }
 
-strong + strong {
+p + strong {
   color: #fff;
 }
 
@@ -43,22 +43,22 @@ strong + strong {
   background-color: #2694d8;
 }
 
-ol:first-child {
+ol li:first-child {
   color: #719e47;
 }
 
-ol:last-child {
+ol li:last-child {
   color: #2aa198;
 }
 
-.types:nth-child(odd) {
+.types li:nth-child(odd) {
   background-color: #657ba3;
 }
 
-.types:nth-child(even) {
+.types li:nth-child(even) {
   background-color: #586e75;
 }
 
-.types:nth-child(3n) {
+.types li:nth-child(3n) {
   background-color: #d04b16;
 }
