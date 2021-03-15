@@ -1,5 +1,12 @@
-body {
+html {
+  box-sizing: border-box;
   background-color: #fdf6e3;
+  font-family: Georgia, serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 header, footer {
@@ -30,10 +37,30 @@ nav ul {
   color: #fff;
 }
 
-[a href=] {
+[href^="a href="] {
   background-color: #719e07;
 }
 
 [rel="external"] {
-  background-color: #b58900;
+  background-color: #2694d8;
+}
+
+ol:first-child {
+  color: #719e47;
+}
+
+ol:last-child {
+  color: #2aa198;
+}
+
+.types:nth-child(odd) {
+  background-color: #657ba3;
+}
+
+.types:nth-child(even) {
+  background-color: #586e75;
+}
+
+.types:nth-child(3n) {
+  background-color: #d04b16;
 }
